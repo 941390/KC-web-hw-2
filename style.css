@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background-color:#4C516D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.header{
+    background-color: rgb(16, 17, 17);
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:5px 5px 5px rgb(61, 71, 77) ;
+}
+
+
+.left{
+    display: flex;
+    align-items: center;
+    color: aqua;
+}
+
+
+.left h1{
+    margin: 15px;
+    font-size: 25px;
+}
+
+
+.right a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+    margin-right: 15px;
+}
+
+.right a :hover{
+    color: rgba(0, 0, 0, 0.449);
+}
+
+.box{
+    background-color:black;
+    width: 220px;
+    height: 450px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(61, 71, 77) ;
+    opacity: 0.5;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box :hover{
+    box-shadow:5px 5px 5px rgb(61, 71, 77) ;
+}
+
+.box2{
+    background-color:black;
+    width: 220px;
+    height: 450px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(61, 71, 77) ;
+    opacity: 0.5;
+}
+
+.box2 img{
+    width: 100%;
+}
+
+.box2 :hover{
+    box-shadow:5px 5px 5px rgb(61, 71, 77) ;
+}
+
+
+.box3{
+    background-color:black;
+    width: 220px;
+    height: 450px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(61, 71, 77) ;
+    opacity: 0.5;
+}
+
+
+.box3 img{
+    width: 100%;
+}
+
+.box3 :hover{
+    box-shadow:5px 5px 5px rgb(61, 71, 77) ;
+}
+
+
+
+
+.container{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.footer{
+    background-color: black;
+    color: white;
+
+}
+   
+    
+
+
+
+
+
