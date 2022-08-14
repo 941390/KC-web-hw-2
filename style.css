@@ -44,17 +44,17 @@ body{
 }
 
 .box{
-    background-color:black;
-    width: 220px;
-    height: 450px;
-    margin: 5px;
+    background-color: rgb(58, 58, 58);
+    width: 250px;
+    height: 470px;
+    margin: 11px;
     color: white;
     font-size: 20px;
     padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 5px 5px 5px rgb(61, 71, 77) ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     opacity: 0.5;
 }
 
@@ -67,17 +67,18 @@ body{
 }
 
 .box2{
-    background-color:black;
-    width: 220px;
+    background-color: rgb(58, 58, 58);
+    width: 250px;
     height: 450px;
-    margin: 5px;
+    margin: 11px;
     color: white;
     font-size: 20px;
     padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 5px 5px 5px rgb(61, 71, 77) ;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     opacity: 0.5;
 }
 
@@ -91,18 +92,17 @@ body{
 
 
 .box3{
-    background-color:black;
-    width: 220px;
+    background-color: rgb(58, 58, 58);
+    width: 250px;
     height: 450px;
-    margin: 5px;
+    margin: 10px;
     color: white;
     font-size: 20px;
     padding: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 5px rgb(61, 71, 77) ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     opacity: 0.5;
 }
 
@@ -119,11 +119,14 @@ body{
 
 
 .container{
-    margin: 5px;
+    margin: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1200px;
+
+
     
 }
 
