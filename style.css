@@ -120,11 +120,12 @@ body{
 
 .container{
     margin: 20px;
-    display: flex;
-    justify-content: center;
+    display:inline-flex;
+      justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
     width: 1200px;
+    
+    
 
 
     
